@@ -17,7 +17,7 @@ public class LoanController {
     @Autowired
     LoanService loanService;
 
-    //loan service injected
+    //loan service autowired
 
     @PostMapping
     public ResponseEntity<LoanDTO> createLoan(@Valid @RequestBody LoanDTO loanDTO){
